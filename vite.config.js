@@ -11,6 +11,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),
+  base: './'
   ],
   server: {
     host: true,     // allow LAN/0.0.0.0 access
